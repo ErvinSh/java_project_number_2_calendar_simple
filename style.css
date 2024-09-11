@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+table {
+    border-collapse: collapse;
+}
+td,th {
+    border: 1px, solid, #fffeee;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+th {
+    font-weight: bolder;
+    color: #99ccff;
+    font-size: 22px;
+}
+caption {
+    border: 1px, solid, #fffeee;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #05529e;
+    font-weight: bold;
+}
